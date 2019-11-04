@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>Setlist</title>
+	<script src="setlist.json"></script>
+	<script language="JavaScript">
+		function display()
+		{
+			var myarr = JSON.stringify(songs);
+			document.write(myarr + "<br>");
+			document.write("<br>");
+
+			for (var i = 0; i < songs.length; i++) 
+			{
+				document.write(songs[i].title + "<br> Artist: " + songs[i].artist + "<br> Genre: " + songs[i].genre + "<br> Released " + songs[i].year + "<br><br>");
+			}
+		}
+		display();
+
+		function genre_filter()
+		{
+			var genre = document.getElementById("myGenre").value;
+			document.write(genre + " songs: <br> <br>");
+			for (var i = 0; i < songs.length; i++)
+			{
+				if (genre == songs[i].genre)
+				{
+					document.write(songs[i].title + "<br>");
+				}
+			}
+		}
+
+	</script>
+</head>
+<body>
+	<form>
+		Genre:
+		<select id="myGenre">
+			<option value="R&B">R&B</option>
+			<option value="Hip Hop">Hip Hop</option>
+			<option value="Indie">Indie</option>
+			<option value="Pop">Pop</option>
+		</select>
+		<button onclick="genre_filter()">Submit</button>
+	</form>
+</body>
+</html>
