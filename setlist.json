@@ -1,0 +1,62 @@
+songs = [
+	{
+		"title": "Cyanide",
+		"artist": "Daniel Caesar",
+		"genre": "R&B",
+		"year": "2019"
+	},
+	{
+		"title": "Heaven Falls / Fall on me",
+		"artist": "Surfaces",
+		"genre": "Pop",
+		"year": "2018"
+	},
+	{
+		"title": "Ivy",
+		"artist": "Frank Ocean",
+		"genre": "R&B",
+		"year": "2016"
+	},
+	{
+		"title": "Gone Away",
+		"artist": "H.E.R.",
+		"genre": "R&B",
+		"year": "2017"
+	},
+	{
+		"title": "Let's Fall in Love for the Night",
+		"artist": "FINNEAS",
+		"genre": "Pop",
+		"year": "2018"
+	},
+	{
+		"title": "Tout Oublier",
+		"artist": "Angele",
+		"genre": "Pop",
+		"year": "2018"
+	},
+	{
+		"title": "Baby Boy",
+		"artist": "Kevin Abstract",
+		"genre": "Hip Hop",
+		"year": "2019"
+	},
+	{
+		"title": "Summertime Magic",
+		"artist": "Childish Gambino",
+		"genre": "R&B",
+		"year": "2018"
+	},
+	{
+		"title": "Goodie Bag",
+		"artist": "Still Woozy",
+		"genre": "Indie",
+		"year": "2017"
+	},
+	{
+		"title": "Entropy",
+		"artist": "Frank Ocean",
+		"genre": "R&B",
+		"year": "2019"
+	}
+]
